@@ -1,0 +1,32 @@
+{
+  "name": "x402-arbitrage-oracle-plugin",
+  "version": "1.0.0",
+  "description": "1-Line Drop-in x402 Arbitrage Oracle & Net-Profit Signal Plugin for ElizaOS, CDP AgentKit & Autonomous AI Agents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "x402",
+    "coinbase-cdp",
+    "bazaar",
+    "arbitrage",
+    "elizaos",
+    "agentkit",
+    "base",
+    "solana",
+    "ai-agents"
+  ],
+  "author": "magicsquarematrix-blip",
+  "license": "MIT",
+  "dependencies": {
+    "@coinbase/cdp-sdk": "^1.54.0",
+    "@x402/fetch": "^0.6.6",
+    "@x402/evm": "^2.20.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
